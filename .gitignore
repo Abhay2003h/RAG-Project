@@ -1,20 +1,8 @@
-# Virtual environments
 venv/
 .venv/
-
-# Environment variables and API keys
 .env
 .env.*
-
-# Python cache
 __pycache__/
 *.py[cod]
-
-# ChromaDB
 chroma_db/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# IDE settings
 .vscode/
