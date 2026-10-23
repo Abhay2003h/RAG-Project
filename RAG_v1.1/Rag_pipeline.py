@@ -20,7 +20,7 @@ llm = ChatGoogleGenerativeAI(
 
 
 prompt = ChatPromptTemplate.from_template("""
-Answer the question using only the context provided below.
+Answer the question using the context provided below and add extra content from yourside but don't add unwanted information.
 
 If the answer is not present in the context,
 say: "I don't know based on the provided document."
